@@ -9,6 +9,7 @@ export default {
         spaceGrotesk: ["Space Grotesk", "sans-serif"],
         playwrite: ["Playwrite AR", " cursive"],
         DMSANS: ["DM Sans", "sans-serif"],
+        OpenSans: ["Open Sans","sans-serif"],
       },
     },
   },

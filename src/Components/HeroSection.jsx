@@ -4,11 +4,10 @@ import { PiMouseSimple } from "react-icons/pi";
 
 const HeroSection = () => {
   return (
-    <section className="w-full bg-gradient-to-r font-DMSANS from-[#74c4e6] via-[#80d9f9] to-[#6db9ff]">
-      <Navbar></Navbar>
-      <div className="h-[35rem] w-[18rem]    inset-[-2%_66%_auto_auto] blur-[90px] rotate-[-5deg] opacity-[0.7] z-[200] absolute bg-gradient-to-tr from-red-300 via-pink-500 to-purple-400 "></div>
-      <div className="flex mt-[50px] justify-between max-w-[1300px] mx-auto text-white p-[40px_10px_20px_30px]">
-        <div className=" flex flex-col gap-7 z-[20]  ">
+    <>
+      <div id="home" className="h-[40rem] w-[18rem]    inset-[-20%_66%_auto_auto] blur-[90px] rotate-[-5deg] opacity-[0.7] z-[200] absolute bg-gradient-to-tr from-red-300 via-pink-500 to-purple-400 "></div>
+      <div className="flex max-lg:flex-col mt-[50px] justify-between max-w-[1300px] mx-auto text-white p-[40px_10px_20px_30px]">
+        <div className=" flex flex-col  gap-7 z-[20]  ">
           <div className="mt-[50px]">
             <h1 className="text-[40px] leading-[3.2rem]  font-[400]">
               Welcome to
@@ -37,8 +36,8 @@ const HeroSection = () => {
       </div>
 
       <svg
-        className="absolute bottom-[-200px] w-full max-w-[1500px]"
-        width="1440"
+        className="absolute bottom-[-270px] w-full max-w-[1500px]"
+        width="full"
         height="604"
         viewBox="0 0 1440 604"
         fill="none"
@@ -48,10 +47,13 @@ const HeroSection = () => {
           d="M760 435.452C544.368 463.007 234.943 374.829 0 498.829V604H1440V0.5C1440 0.5 1296.64 13.2995 1171 90.5C1025.94 179.629 975.632 407.896 760 435.452Z"
           fill="white"
         />
-
       </svg>
-        <span className="text-black text-[1.2rem] absolute inset-[auto_45%_auto_auto] flex flex-row  items-center gap-2"><PiMouseSimple/>scroll down</span>
-    </section>
+      <a href="#scroll">
+        <span className="text-black text-[1.2rem] bg-white z-[10] absolute inset-[auto_45%_auto_auto] flex flex-row  items-center gap-2">
+          <PiMouseSimple /> scroll down
+        </span>
+      </a>
+    </>
   );
 };
 
