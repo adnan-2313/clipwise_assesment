@@ -1,8 +1,8 @@
 import image from "../assets/Image.png"
 const AboutComponent = () => {
   return (
-    <section className="relative w-full max-w-[1400px]  flex justify-between  flex-row">
-      <div className="flex flex-col leading-[50px] justify-end z-[30] items-end my-[200px] mb-[215px] w-full">
+    <section id="about" className="relative w-full max-w-[1400px]  flex mx-auto justify-between  flex-row max-lg:flex-col max-lg:justify-center">
+      <div className="flex flex-col leading-[50px] justify-end max-lg:justify-center z-[30] items-end my-[200px] mb-[215px] w-full">
         <h3 className="text-[33px] text-[#31546D]">BEST PRICE</h3>
         <h2 className="text-[50px] font-montserrat text-[#31546D] font-[700]">
           Agate Phone Grip
@@ -22,7 +22,7 @@ const AboutComponent = () => {
         </button>
       </div>
       <div className="w-full  border-black z-[30] ">
-        <div className="w-[744px] h-[744px] rounded-[50%] flex justify-center items-center bg-[#ffffff49] opacity-[1]">
+        <div className="w-[744px] h-[744px]  rounded-[50%] flex justify-center items-center bg-[#ffffff49] opacity-[1]">
           <div className="w-[570px] h-[570px] rounded-[50%]  flex justify-center items-center bg-[#fff] shadow-[2px_-2px_10px_rgba(0,0,0,0.14)] opacity-[1] ">
             <div className="w-[370px] h-[370px] rounded-[50%]  flex justify-center items-center bg-[#fff]  shadow-[0px_-2px_10px_rgba(0,0,0,0.14)] opacity-[1] ">
                 <img src={image} alt="" className="" />
@@ -32,8 +32,8 @@ const AboutComponent = () => {
       </div>
       <svg
         className="absolute z-[20] top-[-63px] "
-        width="1440"
-        height="900"
+        width="100%"
+        height="100%"
         viewBox="0 0 1440 900"
         fill="none"
         xmlns="http://www.w3.org/2000/svg"

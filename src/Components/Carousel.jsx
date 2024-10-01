@@ -16,7 +16,7 @@ const Carousel = () => {
   };
   return (
     <div className="z-[50] flex flex-col gap-10 ">
-      <div className="relative w-[529px] h-[500px] justify-center items-center flex">
+      <div className="relative w-[529px]  h-[500px] justify-center items-center flex">
         <div>
           {slides.map((item, index) => {
             return (
@@ -24,18 +24,19 @@ const Carousel = () => {
                 key={index}
                 className={`${
                   slide === index
-                    ? "w-[100%]  rounded-[50px] flex p-[60px_80px] shadow-lg justify-center flex-col  bg-white"
+                    ? "w-[100%] max-md:w-[80%] mx-auto relative  rounded-[50px] flex p-[60px_80px] max-md:p-[40px_80px] max-mobile:p-[20px_30px] shadow-lg justify-center items-center flex-col  bg-white"
                     : "hidden"
                 } `}
               >
-                <div className="absolute w-[97px] h-[40px] bg-[#8A93E5] flex justify-center items-center top-[60px] left-[2px] rounded-r-[8px]">
+                <div className="absolute w-[97px]  h-[40px] bg-[#8A93E5] flex justify-center items-center top-[60px]  left-0 rounded-r-[8px]">
                   New log
                 </div>
-                <div className="w-[362px] h-[380px]  flex justify-center items-center">
+                <div className="w-[362px] h-[380px] max-mobile:w-[270px]  flex justify-center items-center">
                   <img src={image} alt="slides" className="" />
                 </div>
                 <div className="font-[700]  text-center font-DMSANS uppercase text-[#24232375] text-[19px] leading-[24px] items-center">
-                  {item.price}
+                  {item.title}
+                  <span className="font-bold text-[#205880]">{item.price}</span>
                 </div>
               </div>
             );
