@@ -1,8 +1,34 @@
-# React + Vite
+# Clipwise Assessment
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+This is a front-end project built with **React.js** and styled using **Tailwind CSS**. The project is an exact replica of the design provided in **Figma** and includes a **carousel** component.
 
-Currently, two official plugins are available:
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+## Demo
+
+Link to the live demo (if applicable).
+
+## Features
+
+- Pixel-perfect replication of Figma design.
+- Responsive design for different screen sizes.
+- Interactive carousel component.
+
+## Technologies Used
+
+- **React.js**: JavaScript library for building user interfaces.
+- **Tailwind CSS**: Utility-first CSS framework for styling.
+- **Figma**: The design source used to create the project.
+
+## Installation
+
+To run this project locally, follow these steps:
+
+ Clone the repository:
+
+   ```bash
+   git clone git@github.com:adnan-2313/clipwise_assesment.git
+   cd clipwise_assesment
+   npm install
+   npm run dev
+
+
