@@ -5,7 +5,7 @@ This is a front-end project built with **React.js** and styled using **Tailwind 
 
 ## Demo
 
-Link to the live demo (if applicable).
+Link to the live demo https://clipwise-assesment-cyan.vercel.app/
 
 ## Features
 
