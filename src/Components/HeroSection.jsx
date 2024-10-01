@@ -8,9 +8,9 @@ const HeroSection = () => {
         id="home"
         className="h-[40rem] w-[18rem]    inset-[-20%_66%_auto_auto] blur-[90px] rotate-[-5deg] opacity-[0.7] z-[200] absolute bg-gradient-to-tr from-red-300 via-pink-500 to-purple-400 "
       ></div>
-      <div className="flex max-lg:flex-col mt-[100px] justify-between max-lg:justify-center max-lg:items-center max-w-[1300px] mx-auto text-white p-[40px_10px_20px_30px]">
+      <div className="flex max-lg:flex-col  mt-[120px]  justify-between max-lg:justify-center max-lg:items-center max-w-[1300px] mx-auto text-white p-[40px_10px_20px_30px]">
         <div className=" flex flex-col max-lg:items-center gap-7 z-[20]  ">
-          <div className="mt-[50px] max-lg:text-center">
+          <div className="mt-[100px] max-lg:text-center">
             <h1 className="text-[40px] leading-[3.2rem]  font-[400]">
               Welcome to
               <br />
@@ -38,7 +38,7 @@ const HeroSection = () => {
       </div>
 
       <svg
-        className="absolute bottom-[-270px] w-full h-auto max-lg:bottom-[-795px] max-md:bottom-[-860px]"
+        className="absolute bottom-[-270px] w-full h-auto max-lg:bottom-[-895px] max-md:bottom-[-950px]  max-mobile:bottom-[-1000px] max-smMobile:bottom-[-1080px]"
         width="100%"
         height="100%"
         viewBox="0 0 1440 604"
@@ -50,8 +50,8 @@ const HeroSection = () => {
           fill="white"
         />
       </svg>
-      <a href="#scroll">
-        <span className="text-black text-[1.2rem] max-lg:mt-[20px] bg-white z-[10] absolute inset-[auto_45%_auto_auto] flex flex-row  items-center gap-2">
+      <a href="#scroll" className="mx-auto border-2">
+        <span className="text-black text-[1.2rem] max-lg:mt-[50px] max-mobile:mt-[100px] max-smMobile:mt-[120px]  z-[10] absolute inset-[auto_45%_auto_auto] flex flex-row  items-center gap-2">
           <PiMouseSimple /> scroll down
         </span>
       </a>

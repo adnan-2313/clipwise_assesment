@@ -4,7 +4,9 @@ export default {
   theme: {
     extend: {
       screens: {
+        tablet:"600px",
         mobile: "500px",
+        smMobile:'460px'
       },
 
       fontFamily: {
